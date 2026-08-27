@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Rufina';
+  src: url('./assets/fonts/Rufina-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.encabezado {
+    background-color: yellow;
+    color: red;
+    text-align: left;
+    
+}
+
+.Imagen1 {
+    float: right;
+    width: 100px;
+    margin-right: 50px;
+    padding: 50px;
+}
+.Entradas{
+  text-align: center;
+  
+}
+.Entradas .subtitulo{
+  font-size: 10px;
+  color: gray;
+}
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contenedor .imagen2{
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+  padding: 10px;
+
+}
+.menu1 .submenu1{
+ display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+  font-size: 10px;
+  color: gray;
+}
+.menu1{
+ display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 100px;
+  font-size: 20px;
+  
+  justify-content: center;
+
+}
+.contenedor1{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.menu2 .submenu2{
+ display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 100px;
+  font-size: 10px;
+  color: gray;
+}
+.menu2{
+ display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 100px;
+  font-size: 20px;
+  justify-content: center;
+  height: 500px;
+
+}
+.PlatoPrincipal{
+  text-align: center;
+  
+}
+.PlatoPrincipal .subtitulo{
+  font-size: 10px;
+  color: gray;
+}
+.contenedor1 .imagen3{
+  width: 500px;
+  height: 500px;
+  margin-right: 100px;
+  padding: 10px;
+
+}
+.Postres{
+  text-align: center;
+  
+}
+.Postres .subtitulo{
+  font-size: 10px;
+  color: gray;
+}
+.contenedor2{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.contenedor2 .imagen4{
+  width: 500px;
+  height: 500px;
+  margin-left: 100px;
+  padding: 10px;
+
+}
+.menu3 .submenu3{
+ display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+  font-size: 10px;
+  color: gray;
+}
+.menu3{
+ display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 100px;
+  font-size: 20px;
+  
+  justify-content: center;
+
+}

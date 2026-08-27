@@ -1,0 +1,8 @@
+.listaPaises{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 20px;
+    flex-wrap: wrap; /* pasan a siguiente linea 
+    cuando se acab la pant */
+}

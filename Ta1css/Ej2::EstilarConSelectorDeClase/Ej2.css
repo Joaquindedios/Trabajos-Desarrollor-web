@@ -1,0 +1,19 @@
+.impar{
+    background-color: lightpink;
+    /*  Verdana es la primer opcion
+    entre comillas la sgunda opcion y la alternativa generica final
+     va a lo ultimo*/
+    font-family: Verdana, "DejaVu Sans", sans-serif ;
+}
+.impar.tercero{
+    font-size: 24px;
+}
+#dos{
+    color: blue;
+    font-size: 36px;
+}
+#cuatro{
+    background-color: lightgreen;
+    font-style: bold;
+    font-size: 24px;
+}

@@ -1,0 +1,17 @@
+.productos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.tarjeta{
+    padding: 20px;
+    width: 200px;
+    border: 1px solid;
+    border-color: black;
+    
+    
+}
+h2{
+    text-align: center;
+}

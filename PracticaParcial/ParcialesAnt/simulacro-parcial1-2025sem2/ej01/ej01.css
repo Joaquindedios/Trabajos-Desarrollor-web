@@ -1,0 +1,32 @@
+/* 
+  Reemplazar este código CSS con los estilos necesarios.
+*/
+
+h1{
+  text-align: left;
+}
+.tarjeta{
+    padding: 20px;
+    width: 200px;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    
+    
+}
+.comidas{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+
+}
+.texto {
+  text-align: center;
+  font-size: 15px;
+}
+.emoji {
+  text-align: center;
+  font-size: 30px;
+}

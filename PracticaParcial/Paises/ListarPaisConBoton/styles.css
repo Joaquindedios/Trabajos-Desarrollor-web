@@ -1,0 +1,12 @@
+.tarjeta {
+    border: 1px solid black;
+    padding: 15px;
+    width: 180px;
+}
+.listaPaises {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+}
