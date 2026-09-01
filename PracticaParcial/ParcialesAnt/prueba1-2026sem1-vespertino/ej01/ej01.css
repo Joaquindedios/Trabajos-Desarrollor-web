@@ -1,0 +1,86 @@
+/*
+  Reemplazar este código CSS con los estilos necesarios.
+*/
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 1em 4vw;
+}
+h1{
+  text-align: center;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 0.85em;
+  width: 100%; /* alargamos la tabla*/
+}
+.contenedorGral{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box; /* con esto hacemos que ocupen todo la pantalla*/
+}
+
+tbody{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+  
+}
+tr{
+  display: block;
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.Aizq{
+ text-align: left;
+ 
+}
+.izq{
+  margin-bottom: 10px;
+}
+td{
+  text-align: right;
+}
+.derecha{
+  width: 100%;
+  text-align: right;
+}
+
+.izquierda{
+  width: 100%;
+  text-align: left;
+}
+
+
+@media (max-width:900px) {
+  tbody{
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}
+@media (max-width:600px) {
+  tbody{
+    grid-template-columns: 1fr;
+  }
+  
+}
+.gris{
+  background-color: gainsboro;
+}

@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+h2{
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+.encabezado{
+  display: flex;
+  
+  align-items: flex-start;
+}
+.nombre{
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 5%;
+}
+.img1{
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+}
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  
+}
+.perfil{
+  width: 25%;
+  margin-left: 20px;
+}
+.textoPerfil{
+  color: gray;
+}
+.contacto{
+  width: 25%;
+  margin-right: 30%;
+}
+.textoContacto{
+  color: gray;
+}
+.descripcion{
+  color:gray;
+}
+.descripcionEducacion, .descripcionTrabajo{
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 5%;
+}
+.contenedorEducacion{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.textoEducacion{
+  margin-left: 20px;
+}
+.anios, .aniosTrabajados{
+margin-right: 30%;
+font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 5%;
+  color: gray;
+  padding: 50px ;
+}
+#tiempo{
+  padding: 20px;
+  margin-right: 20px;
+
+}
+.contenedorTrabajos{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.img{
+  width: 100px;
+  height: 100px;
+}

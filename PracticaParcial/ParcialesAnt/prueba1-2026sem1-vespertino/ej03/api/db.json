@@ -1,0 +1,59 @@
+{
+  "combos": [
+    {
+      "id": "zq8Tt2wyc-I",
+      "textColor": "#3a0241",
+      "backgroundColor": "#f28616",
+      "approved": true
+    },
+    {
+      "id": "M1lMT-DJpn8",
+      "textColor": "#9ea1bb",
+      "backgroundColor": "#475c70",
+      "approved": false
+    },
+    {
+      "id": "hP2gmvhRyCI",
+      "textColor": "#ed2543",
+      "backgroundColor": "#99c2fc",
+      "approved": true
+    },
+    {
+      "id": "X2fvaLu2t5o",
+      "textColor": "#6a7acd",
+      "backgroundColor": "#04643d",
+      "approved": true
+    },
+    {
+      "id": "195TZRm4-Xs",
+      "textColor": "#a0ab4d",
+      "backgroundColor": "#c6e8f1",
+      "approved": true
+    },
+    {
+      "id": "3wGeW1e8sOo",
+      "textColor": "#16e0ad",
+      "backgroundColor": "#c7d98b",
+      "approved": true
+    },
+    {
+      "id": "auVmthY8Y9E",
+      "textColor": "#be658e",
+      "backgroundColor": "#dae2c8",
+      "approved": true
+    },
+    {
+      "id": "vH57Z6Tpfbc",
+      "textColor": "#8e86f9",
+      "backgroundColor": "#dc882b",
+      "approved": true
+    },
+    {
+      "id": "v5YHtXO8ETg",
+      "textColor": "#cfd0f5",
+      "backgroundColor": "#c3b53f",
+      "approved": true
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
